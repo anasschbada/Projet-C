@@ -1,0 +1,313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inc\t#include \"…\""
+			],
+			[
+				"a",
+				"argv"
+			],
+			[
+				"ar",
+				"argc"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"ins",
+				"inserer"
+			],
+			[
+				"affi",
+				"afficherlistforme"
+			],
+			[
+				"h",
+				"errno.h\tstandard header"
+			],
+			[
+				"im",
+				"impair"
+			],
+			[
+				"pai",
+				"pair"
+			],
+			[
+				"pa",
+				"pair"
+			],
+			[
+				"t",
+				"tab"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"s",
+				"suivant"
+			],
+			[
+				"for",
+				"forme"
+			],
+			[
+				"is",
+				"isint"
+			],
+			[
+				"ch",
+				"chaine"
+			],
+			[
+				"poi",
+				"point_to_op_d"
+			],
+			[
+				"po",
+				"point_to_op_g"
+			],
+			[
+				"op",
+				"op_gg"
+			],
+			[
+				"re",
+				"resultat"
+			],
+			[
+				"op_d",
+				"op_d"
+			],
+			[
+				"str",
+				"string.h\tstandard header"
+			],
+			[
+				"cha",
+				"chaine1"
+			],
+			[
+				"va",
+				"valA"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"chaine",
+				"chaine1"
+			],
+			[
+				"chain",
+				"chaine2"
+			],
+			[
+				"chaie",
+				"chaine1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/anass/Documents/langageC/S6/TD13/pile.h",
+		"/home/anass/Documents/langageC/S6/TD15/callback.h",
+		"/home/anass/Documents/langageC/S6/TD15/callback.c",
+		"/home/anass/Documents/langageC/S6/TD15/data.c",
+		"/home/anass/Documents/langageC/S6/TD15/data.h",
+		"/home/anass/Documents/langageC/S6/TD15/conv.c",
+		"/home/anass/.config/sublime-text-3/Packages/User/C.sublime-build",
+		"/home/anass/Documents/projet/finalVersion/test.c",
+		"/home/anass/Desktop/partie3_BENLEMLIH.c",
+		"/home/anass/Desktop/Todo Granet/TD12",
+		"/home/anass/Documents/langageC/S6/TD12/Correxo3.c",
+		"/home/anass/Documents/langageC/S6/TD13/eval.c",
+		"/home/anass/Documents/projet/cycle3/en c/test.c",
+		"/home/anass/Documents/projet/cycle3/en c/test2.c",
+		"/home/anass/Documents/langageC/S5/TD8/carremag.c",
+		"/home/anass/Documents/langageC/S6/TD13/pile.c",
+		"/home/anass/Documents/projet/cycle3/Programme/tns_elec3_sem2_2019.pdf",
+		"/home/anass/Documents/langageC/S6/CorrectionExam2Ex4.c",
+		"/home/anass/Documents/langageC/S6/TD12/Correxo1.c",
+		"/home/anass/Documents/langageC/S6/CorrectionExam2.c",
+		"/home/anass/Documents/langageC/S6/TD12/Correxo2.c",
+		"/home/anass/Documents/micro/TD3_1.4.s",
+		"/home/anass/Documents/langageC/S6/TD12/allocation.c",
+		"/home/anass/Documents/langageC/S6/TD12/allocation1.c",
+		"/home/anass/Documents/langageC/S6/TD12/allocation2.c",
+		"/home/anass/Documents/langageC/S6/TD11/echo.c",
+		"/home/anass/Documents/langageC/S6/TD11/argvargc.c",
+		"/home/anass/Documents/langageC/S6/TD11/Lespointeurs.c",
+		"/home/anass/Documents/langageC/S6/TD11/majuscule.c",
+		"/home/anass/Desktop/Microproc/TD/exemple.s",
+		"/home/anass/Desktop/Microproc/arith.s",
+		"/home/anass/Desktop/langageC/S5/ex7C.c",
+		"/home/anass/Desktop/langageC/S6/TD9/CPPex1.s",
+		"/home/anass/Desktop/langageC/S6/TD9/CPPex1.c",
+		"/home/anass/Desktop/test.py",
+		"/home/anass/Desktop/skjfhjac.c",
+		"/home/anass/Desktop/test.c"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C.sublime-build",
+	"project": "callback.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
