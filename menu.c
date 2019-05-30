@@ -2,15 +2,17 @@
 #include <stdlib.h>
 #include <libsx.h>
 #include "menu.h"
+#include "callback.h"
 
 void Init_Display(int argc,char *argv[], void *d){
 
 	/* Creation et assemblage des widgets*/
 //MainLabel, Quit, Start, User_name, Cards_Height,Cards_lenght; Label1
-
+	
 	//// Buttons
-	Quit=MakeButton("Quit",NULL, NULL);
+	Quit=MakeButton("Quit",quit, NULL);
 	Start=MakeButton("Start",NULL, NULL);
+	Score=MakeButton("Score",score, NULL);
 
 	///// String Entry
 	User_name=MakeStringEntry(NULL,200,NULL,NULL);
@@ -37,21 +39,18 @@ void Init_Display(int argc,char *argv[], void *d){
 	SetWidgetPos(Cards_lenght,PLACE_RIGHT,Label1,PLACE_UNDER,Cards_lenghtLabel);
 
 	SetWidgetPos (Start,NO_CARE , NULL, PLACE_UNDER ,Cards_lenght);
-
-	
+	SetWidgetPos (Score,PLACE_RIGHT , Start, PLACE_UNDER ,Cards_lenght);
 	SetWidgetPos (Quit, NO_CARE, NULL, PLACE_UNDER ,Start);
 
-	int r=GetNamedColor("Red");
-	int b=GetNamedColor("Black");
-	int g=GetNamedColor("Green");
-
-	SetCurrentWindow(mainWindow);
+	int Red=GetNamedColor("Red");
+	int Black=GetNamedColor("Black");
+	int Green=GetNamedColor("Green");
 
 
-  	SetColor(r);
-  	SetFgColor(Quit,r);
-  	SetBgColor(Quit,b);
-  	SetBgColor(mainWindow,g);
+	// Setting Colors
+  	//SetColor(Red);
+  	SetBgColor(Quit,Red);
+  	SetBgColor(Start,Green);
   	
 
   	ShowDisplay();

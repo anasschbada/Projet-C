@@ -4,11 +4,11 @@
 #include <libsx.h>
 
 // Main Buttons Widgets
-Widget MainLabel, Quit, Start, User_name, Cards_Height,Cards_lenght;
+Widget MainLabel, Quit, Start, User_name, Cards_Height,Cards_lenght,Score;
 // Label Widgets
 Widget Label1,Cards_HeightLabel,Cards_lenghtLabel,User_nameLabel;
 
-Widget mainWindow;
+Widget ScoreWindow;
 
 extern void Init_Menu(int argc,char *argv[], void *d);
 

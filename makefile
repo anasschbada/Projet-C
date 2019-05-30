@@ -1,7 +1,7 @@
 CC = gcc 
 CFLAGF = -Wall
 LDFLAGS = -lsx
-SRC = menu.c
+SRC = menu.c callback.c
 PROG = menu
 OBJS = $(SRC:.c=.o)
 .SUFFIXES: .c .o 
@@ -11,7 +11,10 @@ all: $(PROG)
 $(PROG): $(OBJS)
 	$(CC) -o $@ $^ $(LDFLAGS)
 
-menu.o: menu.h
+
+callback.o : callback.h
+menu.o: menu.h callback.h
+
 %.o: %.c
 	$(CC) $(CFLAGS) -c $<
 
