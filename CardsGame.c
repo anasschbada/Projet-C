@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <libsx.h>
+#include <errno.h>
 #include "menu.h"
 #include "callback.h"
 #include "data.h"
@@ -14,9 +15,6 @@ int main(int argc, char *argv[])
 
 		Init_Display(argc,argv,NULL);
 		MainLoop();
-
-
-
-
-		return EXIT_SUCCESS;
+	
+	return EXIT_SUCCESS;
 }
