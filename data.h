@@ -1,7 +1,9 @@
 #pragma once
-
+#define filename "scorefile"
 #define MAXCAR 200
+#define maxlines 100
 
+int Flines;
 
 typedef struct 
 {
@@ -9,18 +11,35 @@ typedef struct
 	char Height[MAXCAR];
 	char Width[MAXCAR];
 	char Difficulty[MAXCAR];
-	int Score;
+	char Score[MAXCAR];
 
 	Widget ZoneSaisie;
 	
 }data;
 
+
+
+typedef struct noeud {
+	char joueur[MAXCAR];
+	char score[MAXCAR];
+	struct noeud *suivant;	//pointeur vers forme suivante
+} *Liste;
+
+
+Liste player;
+
+
+int r;
+
 data infos;
-//Widget wid;
+
 extern char *strcatt(char *chaine1,char *chaine2);
-extern void WriteinFile(char *f,Widget w);
-extern char *ReadfromFile(char *f);
+extern void WriteinFile(void);
+extern void ReadfromFile(char *name,char *score);
 extern void GetUsername(Widget w);
-extern void WriteinFileFromchar(char *f,char *string);
-
-
+extern void createFile(char *file);
+extern void *	initForme (char *strplayer,char *strscore);
+extern int longueur (Liste lf);
+extern char *iemejoueur (Liste lf, int r);
+extern char *iemescore (Liste lf, int r);
+extern void inserer (Liste *lf, int r, char *strplayer,char*strscore);
